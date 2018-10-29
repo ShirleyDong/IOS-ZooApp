@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923BA455204D9FDA00146B8B /* lionfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA446204D9FD900146B8B /* lionfish.jpg */; };
+		923BA456204D9FDA00146B8B /* parrots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA447204D9FD900146B8B /* parrots.jpg */; };
+		923BA457204D9FDA00146B8B /* Crowned crane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA448204D9FD900146B8B /* Crowned crane.jpg */; };
+		923BA458204D9FDA00146B8B /* whitePeacock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA449204D9FD900146B8B /* whitePeacock.jpg */; };
+		923BA459204D9FDA00146B8B /* seal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44A204D9FD900146B8B /* seal.jpg */; };
+		923BA45A204D9FDA00146B8B /* snowleopard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44B204D9FD900146B8B /* snowleopard.jpg */; };
+		923BA45B204D9FDA00146B8B /* clownFish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44C204D9FD900146B8B /* clownFish.jpg */; };
+		923BA45C204D9FDA00146B8B /* Flamingo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44D204D9FD900146B8B /* Flamingo.jpg */; };
+		923BA45D204D9FDA00146B8B /* shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44E204D9FD900146B8B /* shark.jpg */; };
+		923BA45E204D9FDA00146B8B /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA44F204D9FD900146B8B /* panda.jpg */; };
+		923BA45F204D9FDA00146B8B /* PolarBear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA450204D9FDA00146B8B /* PolarBear.jpg */; };
+		923BA460204D9FDA00146B8B /* kingfisher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA451204D9FDA00146B8B /* kingfisher.jpg */; };
+		923BA461204D9FDA00146B8B /* sailfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA452204D9FDA00146B8B /* sailfish.jpg */; };
+		923BA462204D9FDA00146B8B /* dolphin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA453204D9FDA00146B8B /* dolphin.jpg */; };
+		923BA463204D9FDA00146B8B /* smallPanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 923BA454204D9FDA00146B8B /* smallPanda.jpg */; };
+		9280569D2045B9B8005106EA /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9280569C2045B9B8005106EA /* Animal.swift */; };
+		9280569F2045BD97005106EA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9280569E2045BD97005106EA /* Menu.swift */; };
+		928056A12045DD02005106EA /* CategeryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928056A02045DD02005106EA /* CategeryTableViewController.swift */; };
+		928056A72045EE44005106EA /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928056A62045EE44005106EA /* AnimalTableViewController.swift */; };
+		928056AB2045FE2D005106EA /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928056AA2045FE2D005106EA /* AnimalViewController.swift */; };
+		92840B142045802200500391 /* Categery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92840B132045802200500391 /* Categery.swift */; };
+		92840B162045A8F300500391 /* XMLDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92840B152045A8F300500391 /* XMLDataParser.swift */; };
 		928B7D562045713300CD3218 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B7D552045713300CD3218 /* AppDelegate.swift */; };
-		928B7D582045713300CD3218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B7D572045713300CD3218 /* ViewController.swift */; };
 		928B7D5B2045713300CD3218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928B7D592045713300CD3218 /* Main.storyboard */; };
 		928B7D5D2045713300CD3218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928B7D5C2045713300CD3218 /* Assets.xcassets */; };
 		928B7D602045713300CD3218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928B7D5E2045713300CD3218 /* LaunchScreen.storyboard */; };
+		928B7D6820457AFE00CD3218 /* animal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 928B7D6720457AFE00CD3218 /* animal.xml */; };
+		92B407072047169E009A0C62 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B407062047169E009A0C62 /* MapViewController.swift */; };
+		92B4070920471B15009A0C62 /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4070820471B15009A0C62 /* LocationAnnotation.swift */; };
+		92B47FBD2046EC00004B1182 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B47FBC2046EC00004B1182 /* DetailViewController.swift */; };
+		92B47FBF2046F14B004B1182 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B47FBE2046F14B004B1182 /* WebViewController.swift */; };
+		92B47FC2204711B9004B1182 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B47FC1204711B8004B1182 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923BA446204D9FD900146B8B /* lionfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lionfish.jpg; sourceTree = "<group>"; };
+		923BA447204D9FD900146B8B /* parrots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parrots.jpg; sourceTree = "<group>"; };
+		923BA448204D9FD900146B8B /* Crowned crane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crowned crane.jpg"; sourceTree = "<group>"; };
+		923BA449204D9FD900146B8B /* whitePeacock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whitePeacock.jpg; sourceTree = "<group>"; };
+		923BA44A204D9FD900146B8B /* seal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seal.jpg; sourceTree = "<group>"; };
+		923BA44B204D9FD900146B8B /* snowleopard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snowleopard.jpg; sourceTree = "<group>"; };
+		923BA44C204D9FD900146B8B /* clownFish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clownFish.jpg; sourceTree = "<group>"; };
+		923BA44D204D9FD900146B8B /* Flamingo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flamingo.jpg; sourceTree = "<group>"; };
+		923BA44E204D9FD900146B8B /* shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shark.jpg; sourceTree = "<group>"; };
+		923BA44F204D9FD900146B8B /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
+		923BA450204D9FDA00146B8B /* PolarBear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PolarBear.jpg; sourceTree = "<group>"; };
+		923BA451204D9FDA00146B8B /* kingfisher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kingfisher.jpg; sourceTree = "<group>"; };
+		923BA452204D9FDA00146B8B /* sailfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sailfish.jpg; sourceTree = "<group>"; };
+		923BA453204D9FDA00146B8B /* dolphin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dolphin.jpg; sourceTree = "<group>"; };
+		923BA454204D9FDA00146B8B /* smallPanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smallPanda.jpg; sourceTree = "<group>"; };
+		9280569C2045B9B8005106EA /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		9280569E2045BD97005106EA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		928056A02045DD02005106EA /* CategeryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategeryTableViewController.swift; sourceTree = "<group>"; };
+		928056A62045EE44005106EA /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		928056AA2045FE2D005106EA /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		92840B132045802200500391 /* Categery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categery.swift; sourceTree = "<group>"; };
+		92840B152045A8F300500391 /* XMLDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLDataParser.swift; sourceTree = "<group>"; };
 		928B7D522045713300CD3218 /* ZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		928B7D552045713300CD3218 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		928B7D572045713300CD3218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		928B7D5A2045713300CD3218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		928B7D5C2045713300CD3218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928B7D5F2045713300CD3218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928B7D612045713300CD3218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928B7D6720457AFE00CD3218 /* animal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = animal.xml; sourceTree = "<group>"; };
+		92B407062047169E009A0C62 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		92B4070820471B15009A0C62 /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		92B47FBC2046EC00004B1182 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		92B47FBE2046F14B004B1182 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		92B47FC1204711B8004B1182 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B47FC2204711B9004B1182 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +95,7 @@
 			children = (
 				928B7D542045713300CD3218 /* ZooApp */,
 				928B7D532045713300CD3218 /* Products */,
+				92B47FC0204711B7004B1182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +110,48 @@
 		928B7D542045713300CD3218 /* ZooApp */ = {
 			isa = PBXGroup;
 			children = (
+				923BA44C204D9FD900146B8B /* clownFish.jpg */,
+				923BA448204D9FD900146B8B /* Crowned crane.jpg */,
+				923BA453204D9FDA00146B8B /* dolphin.jpg */,
+				923BA44D204D9FD900146B8B /* Flamingo.jpg */,
+				923BA451204D9FDA00146B8B /* kingfisher.jpg */,
+				923BA446204D9FD900146B8B /* lionfish.jpg */,
+				923BA44F204D9FD900146B8B /* panda.jpg */,
+				923BA447204D9FD900146B8B /* parrots.jpg */,
+				923BA450204D9FDA00146B8B /* PolarBear.jpg */,
+				923BA452204D9FDA00146B8B /* sailfish.jpg */,
+				923BA44A204D9FD900146B8B /* seal.jpg */,
+				923BA44E204D9FD900146B8B /* shark.jpg */,
+				923BA454204D9FDA00146B8B /* smallPanda.jpg */,
+				923BA44B204D9FD900146B8B /* snowleopard.jpg */,
+				923BA449204D9FD900146B8B /* whitePeacock.jpg */,
+				9280569C2045B9B8005106EA /* Animal.swift */,
+				928B7D6720457AFE00CD3218 /* animal.xml */,
 				928B7D552045713300CD3218 /* AppDelegate.swift */,
-				928B7D572045713300CD3218 /* ViewController.swift */,
 				928B7D592045713300CD3218 /* Main.storyboard */,
 				928B7D5C2045713300CD3218 /* Assets.xcassets */,
 				928B7D5E2045713300CD3218 /* LaunchScreen.storyboard */,
 				928B7D612045713300CD3218 /* Info.plist */,
+				92840B132045802200500391 /* Categery.swift */,
+				92840B152045A8F300500391 /* XMLDataParser.swift */,
+				9280569E2045BD97005106EA /* Menu.swift */,
+				928056A02045DD02005106EA /* CategeryTableViewController.swift */,
+				928056A62045EE44005106EA /* AnimalTableViewController.swift */,
+				928056AA2045FE2D005106EA /* AnimalViewController.swift */,
+				92B47FBC2046EC00004B1182 /* DetailViewController.swift */,
+				92B47FBE2046F14B004B1182 /* WebViewController.swift */,
+				92B407062047169E009A0C62 /* MapViewController.swift */,
+				92B4070820471B15009A0C62 /* LocationAnnotation.swift */,
 			);
 			path = ZooApp;
+			sourceTree = "<group>";
+		};
+		92B47FC0204711B7004B1182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B47FC1204711B8004B1182 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +187,11 @@
 					928B7D512045713300CD3218 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,9 +218,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923BA45E204D9FDA00146B8B /* panda.jpg in Resources */,
 				928B7D602045713300CD3218 /* LaunchScreen.storyboard in Resources */,
 				928B7D5D2045713300CD3218 /* Assets.xcassets in Resources */,
 				928B7D5B2045713300CD3218 /* Main.storyboard in Resources */,
+				923BA455204D9FDA00146B8B /* lionfish.jpg in Resources */,
+				923BA459204D9FDA00146B8B /* seal.jpg in Resources */,
+				928B7D6820457AFE00CD3218 /* animal.xml in Resources */,
+				923BA460204D9FDA00146B8B /* kingfisher.jpg in Resources */,
+				923BA45A204D9FDA00146B8B /* snowleopard.jpg in Resources */,
+				923BA463204D9FDA00146B8B /* smallPanda.jpg in Resources */,
+				923BA45D204D9FDA00146B8B /* shark.jpg in Resources */,
+				923BA456204D9FDA00146B8B /* parrots.jpg in Resources */,
+				923BA45C204D9FDA00146B8B /* Flamingo.jpg in Resources */,
+				923BA45F204D9FDA00146B8B /* PolarBear.jpg in Resources */,
+				923BA458204D9FDA00146B8B /* whitePeacock.jpg in Resources */,
+				923BA457204D9FDA00146B8B /* Crowned crane.jpg in Resources */,
+				923BA461204D9FDA00146B8B /* sailfish.jpg in Resources */,
+				923BA462204D9FDA00146B8B /* dolphin.jpg in Resources */,
+				923BA45B204D9FDA00146B8B /* clownFish.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +247,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				928B7D582045713300CD3218 /* ViewController.swift in Sources */,
+				92B407072047169E009A0C62 /* MapViewController.swift in Sources */,
+				92B47FBD2046EC00004B1182 /* DetailViewController.swift in Sources */,
+				9280569F2045BD97005106EA /* Menu.swift in Sources */,
+				928056A72045EE44005106EA /* AnimalTableViewController.swift in Sources */,
+				92B47FBF2046F14B004B1182 /* WebViewController.swift in Sources */,
 				928B7D562045713300CD3218 /* AppDelegate.swift in Sources */,
+				92840B162045A8F300500391 /* XMLDataParser.swift in Sources */,
+				928056A12045DD02005106EA /* CategeryTableViewController.swift in Sources */,
+				92840B142045802200500391 /* Categery.swift in Sources */,
+				928056AB2045FE2D005106EA /* AnimalViewController.swift in Sources */,
+				9280569D2045B9B8005106EA /* Animal.swift in Sources */,
+				92B4070920471B15009A0C62 /* LocationAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z389SHYNY8;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCC.ZooApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,12 +412,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z389SHYNY8;
 				INFOPLIST_FILE = ZooApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UCC.ZooApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
